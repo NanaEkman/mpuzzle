@@ -1,0 +1,49 @@
+/*https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout*/
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 90px);
+  grid-auto-rows: minmax(200px, auto);
+  grid-column-gap: 10px; /*espaço maior*/
+  grid-row-gap: 10px;
+}
+
+.logo {
+    grid-column-start: 3;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.jogar {
+	grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.menu {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 11;
+}
+
+.corpo {
+    grid-column-start: 3;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 11;
+}
+
+.ranking {
+    grid-column-start: 9;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    grid-row-end: 11;
+}
+
+div {
+	border-radius: 8px;
+}
