@@ -44,6 +44,15 @@
     grid-row-end: 11;
 }
 
-div {
+.divs {
 	border-radius: 8px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
+
+.botaoParaPagUsu {
+	background-color: black;
+	text-decoration: none;
+	color: white;
+}
+
+

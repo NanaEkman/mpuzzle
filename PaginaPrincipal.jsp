@@ -10,11 +10,15 @@
 <body style="background-color: #8661c1; overflow-y: hidden;">
 	
 	<div class="grid">
-	   <div class="logo" style="background-color: #8661c1;">mpuzzle</div>
-	   <div class="jogar" style="background-color: #ffffff;">jogar</div>
-	   <div class="menu" style="background-color: #ff5e5b;">menu</div>
-	   <div class="corpo" style="background-color: #fef9ff;">cartas</div>
-	   <div class="ranking" style="background-color: #68b7ba;">ranking</div>
+	   <div class="divs logo" style="background-color: #8661c1;">mpuzzle</div>
+	   <div class="divs jogar" style="background-color: #ffffff;">jogar</div>
+	   <div class="divs menu" style="background-color: #ff5e5b;">
+	   <%@ include file="Menu.jsp" %>
+	   </div>
+	   <div class="divs corpo" style="background-color: #fef9ff;">cartas</div>
+	   <div class="divs ranking" style="background-color: #68b7ba;">
+	   <%@ include file="Rankings.jsp" %>
+	   </div>
 	</div>
 	
 </body>
