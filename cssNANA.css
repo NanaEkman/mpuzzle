@@ -49,10 +49,14 @@
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
-.botaoParaPagUsu {
-	background-color: black;
+.linkParaPagUsu {
+	background-color: red;
 	text-decoration: none;
 	color: white;
 }
+
+.minutos{}
+.segundos{}
+.milissegundos{}
 
 

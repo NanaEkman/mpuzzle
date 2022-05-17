@@ -3,15 +3,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="css.css"> <!-- https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_layout_named-->
+<link rel="stylesheet" type="text/css" href="cssNANA.css"> <!-- https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_layout_named-->
 <meta charset="UTF-8">
 <title>mpuzzle</title>
 </head>
-<body style="background-color: #8661c1; overflow-y: hidden;">
+<body style="background-color: #8661c1; overflow: hidden;">
 	
 	<div class="grid">
-	   <div class="divs logo" style="background-color: #8661c1;">mpuzzle</div>
-	   <div class="divs jogar" style="background-color: #ffffff;">jogar</div>
+	   <div class="logo" style="background-color: #8661c1;">
+	   <%@ include file="NomeJogo.jsp" %>
+	   </div>
+	   <div class="divs jogar" style="background-color: #ffffff;">
+	   </div>
 	   <div class="divs menu" style="background-color: #ff5e5b;">
 	   <%@ include file="Menu.jsp" %>
 	   </div>

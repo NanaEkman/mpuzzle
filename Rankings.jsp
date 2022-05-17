@@ -5,28 +5,152 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="cssNANA.css">
 </head>
 <body>
-	<p>Table with colgroup</p>
-	<table>
-		<tr>
-			<th>Countries</th>
-			<th>Capitals</th>
-			<th>Population</th>
-			<th>Language</th>
-		</tr>
-		<tr>
-			<td>USA</td>
-			<td>Washington D.C.</td>
-			<td>309 million</td>
-			<td>English</td>
-		</tr>
-		<tr>
-			<td>Sweden</td>
-			<td>Stockholm</td>
-			<td>9 million</td>
-			<td>Swedish</td>
-		</tr>
-	</table>
+	<h3>Rankings</h3>
+	<div>
+		<p>Dificuldade Fácil</p>
+		<table>
+			<tr>
+				<th>#</th>
+				<th>Nickname</th>
+				<th>Id</th>
+				<th>Time</th>
+				<th>Rounds</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Abelhinha</td>
+				<td>4512</td>
+				<td>05:12</td>
+				<td>12</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Roberson23</td>
+				<td>3904</td>
+				<td>05:30</td>
+				<td>11</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Iceberg</td>
+				<td>2112</td>
+				<td>05:59</td>
+				<td>15</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>luaBela01</td>
+				<td>5619</td>
+				<td>06:10</td>
+				<td>14</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>20come</td>
+				<td>3214</td>
+				<td>06:10</td>
+				<td>17</td>
+			</tr>
+		</table>
+	</div>
+	<br> <br>
+	<div>
+		<p>Dificuldade Fácil</p>
+		<table>
+			<tr>
+				<th>#</th>
+				<th>Nickname</th>
+				<th>Id</th>
+				<th>Time</th>
+				<th>Rounds</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Abelhinha</td>
+				<td>4512</td>
+				<td>05:12</td>
+				<td>12</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Roberson23</td>
+				<td>3904</td>
+				<td>05:30</td>
+				<td>11</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Iceberg</td>
+				<td>2112</td>
+				<td>05:59</td>
+				<td>15</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>luaBela01</td>
+				<td>5619</td>
+				<td>06:10</td>
+				<td>14</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>20come</td>
+				<td>3214</td>
+				<td>06:10</td>
+				<td>17</td>
+			</tr>
+		</table>
+	</div>
+	<br> <br>
+	<div>
+		<p>Dificuldade Fácil</p>
+		<table>
+			<tr>
+				<th>#</th>
+				<th>Nickname</th>
+				<th>Id</th>
+				<th>Time</th>
+				<th>Rounds</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Abelhinha</td>
+				<td>4512</td>
+				<td>05:12</td>
+				<td>12</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Roberson23</td>
+				<td>3904</td>
+				<td>05:30</td>
+				<td>11</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Iceberg</td>
+				<td>2112</td>
+				<td>05:59</td>
+				<td>15</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>luaBela01</td>
+				<td>5619</td>
+				<td>06:10</td>
+				<td>14</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>20come</td>
+				<td>3214</td>
+				<td>06:10</td>
+				<td>17</td>
+			</tr>
+		</table>
+	</div>
 </body>
 </html>

@@ -10,6 +10,7 @@
 <body>
 	<h3>Contatos:</h3>
 	<a href="mailto:nana.ekman@aluno.ifsp.edu.br">nana.ekman@aluno.ifsp.edu.br</a>
+	<br>
 	<a href="mailto:c.devita@aluno.ifsp.edu.br">c.devita@aluno.ifsp.edu.br</a>
 </body>
 </html>

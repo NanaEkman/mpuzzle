@@ -9,7 +9,7 @@
 	@import url('http://fonts.cdnfonts.com/css/bauhaus-modern');
 </style>
 
-<link href="css.css" rel="stylesheet" type="text/css">
+<link href="cssCAMI.css" rel="stylesheet" type="text/css">
 <title>Nome do Jogo</title>
 </head>
 <body>
