@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.botaoInput{
+	border-radius: 8px;
+}
+
+
+.divNomeJogo{
+	background-color: #8661C1; 
+	width: 100%;
+	height: 40%; 
+	text-align: center;
+}
+
+.fonte{
+	color: #FAA916;
+	font-family: 'Bauhaus Modern', sans-serif;
+	font-size: 100px; 
+}
+
+.corpoInicial{
+	background-color: #8661C1;
+	height: 100%;
+}
+
+.divLogin{
+	width: 50%;
+	height: 40%; 
+	text-align: center;
+	border-style: groove;
+	border-radius: 10px;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-top: 2%;
+}
+
+.botaoJogar{
+	width: 20%;
+	border-radius:8px;
+}
