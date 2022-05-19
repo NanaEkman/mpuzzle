@@ -1,11 +1,27 @@
-<!-- Autor: https://brasil.hackclub.com/workshops/cronometro/ -->
-
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="cssNANA.css">
+</head>
+<body>
+	<!-- https://brasil.hackclub.com/workshops/cronometro/ -->
+	<div class="container">
+    <h1>Time:</h1>
+    <div class="principal">
+      <p class="tempo">
+        <span class="minutos">00</span>:<span class="segundos">00</span>:<span class="milissegundos">00</span>
+      </p>
       <div>
         <button onclick="iniciar()" class="iniciar">INICIAR</button>
 		<button onclick="parar()" class="parar">PARAR</button>
 		<button onclick="resetar()" class="resetar">RESETAR</button>
       </div>
-
+    </div>
+  </div>
   
 <script>
 	const miliseg = document.querySelector('.milissegundos')

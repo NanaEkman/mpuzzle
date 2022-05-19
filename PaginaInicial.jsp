@@ -4,6 +4,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
+
+<link href="http://fonts.cdnfonts.com/css/bauhaus-modern" rel="stylesheet">
+<style>
+	@import url('http://fonts.cdnfonts.com/css/bauhaus-modern');
+</style>
+
+<link href="cssCAMI.css" rel="stylesheet" type="text/css">
+
 <title>Tela Inicial</title>
 
 <!-- Bootstrap -->
@@ -12,7 +20,7 @@
 
 </head>
 <body class="corpoInicial">
-	<div style="padding-top: 5%;"><%@ include file="NomeJogo.jsp" %></div>
+	<div class="divNomeJogoLogin"><%@ include file="NomeJogo.jsp" %></div>
 	<div style="padding-top: 5%;">
 		<div class="divLogin">
 			
@@ -35,9 +43,6 @@
 				  </div>
 				  <input type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1" style="color: #FF5E5B; font-family: monospace; font-size: 18px;">
 				</div>
-				
-				<input type="checkbox" name="subscribe" id="subscribe">
-				<label for="" style="color: #FEF9FF; font-family: monospace; font-size: 15px;">Show password</label><br>
 				
 				<a href="" style="color: #FEF9FF; font-family: monospace; font-size: 10px;">Não possui cadastro? Cadastre-se aqui!</a><br>
 		
