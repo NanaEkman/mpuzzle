@@ -5,7 +5,7 @@
 }
 
 
-.divNomeJogo{
+.divNomeJogoLogin{
 	background-color: #8661C1; 
 	width: 100%;
 	height: 40%; 
@@ -16,6 +16,7 @@
 	color: #FAA916;
 	font-family: 'Bauhaus Modern', sans-serif;
 	font-size: 100px; 
+	font-weight: 100;
 }
 
 .corpoInicial{
