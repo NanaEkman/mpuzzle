@@ -2,6 +2,7 @@
 <!-- Fonte referência: https://brasil.hackclub.com/workshops/cronometro/ -->	
 
 <script>
+
 	//pegando os numeros do cronometro
 	const miliseg = document.querySelector('.milissegundos')
 	const seg = document.querySelector('.segundos')
@@ -130,4 +131,5 @@
 		seg.innerHTML = '00'
 		min.innerHTML = '00'
 	}
+	
 </script>
