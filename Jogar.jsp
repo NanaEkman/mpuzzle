@@ -9,7 +9,7 @@
 	
 	<div class="rounds">
 		<span>Rounds:</span>
-		<span class="rodada">0</span>
+		<span class="rodada" id="rodada">0</span>
 	</div>
 	
 	<div class="botoes">
@@ -22,18 +22,7 @@
 	
 <!-- Arquivo com o JavaScript de iniciar, pausar, retomar e parar o jogo e o cronometro -->	
 <%@ include file="JavaScript_Cronometro.jsp" %>
+
+<!-- Arquivo com o JavaScript para incrementar o contador de rodadas -->
+<%@ include file="JavaScript_Rodadas.jsp" %>
 	
-<script>
-
-//pegando o numero da rodada
-const rodada = document.querySelector('.rodadas')
-let rodNum = 0
-
-function proxRodada() {
-	rodNum = rodada + 1
-	rodada.//verrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-	
-}
-
-
-</script>

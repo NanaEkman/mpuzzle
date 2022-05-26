@@ -21,6 +21,7 @@
 	   </div>
 	   
 	   <div class="divs jogar" style="background-color: #ffffff;">
+	   <%@ include file="Jogar.jsp" %>
 	   </div>
 	   
 	   <div class="divs menu" style="background-color: #ff5e5b;">
