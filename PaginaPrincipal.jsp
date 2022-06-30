@@ -13,7 +13,7 @@
 <meta charset="UTF-8">
 <title>mpuzzle</title>
 </head>
-<body style="background-color: #8661c1; overflow: hidden;">
+<body style="background-color: #8661c1;">
 	
 	<div class="grid">
 	   <div class="logoPrincipal" style="background-color: #8661c1;">
@@ -29,7 +29,7 @@
 	   </div>
 	   
 	   <div class="divs corpo" style="background-color: #fef9ff;">
-	   cartas
+	   <%@ include file="Cartas.jsp" %>
 	   </div>
 	   
 	   <div class="divs ranking" style="background-color: #68b7ba;">
