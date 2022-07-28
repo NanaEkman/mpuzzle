@@ -21,38 +21,65 @@
 </head>
 <body class="corpoInicial">
 	<div class="divNomeJogoLogin"><%@ include file="NomeJogo.jsp" %></div>
-	<div style="padding-top: 5%;">
-		<div class="divLogin">
-			
-			<h3 style="color: #FEF9FF; font-family: monospace; font-size: 30px;">Bem-Vindo :)</h3><br>
-			<div class="input-group mb-3">
-			  <div class="input-group-prepend">
-			    <span class="input-group-text" id="basic-addon1">@</span>
-			  </div>
-			  <input type="text" class="form-control" placeholder="Nickname" aria-label="Nickname" aria-describedby="basic-addon1" style="color: #FF5E5B; font-family: monospace; font-size: 18px;">
-			</div>
-			
-			<form action="">
-			
+		
+		<form action="PaginaPrincipal.jsp">	
+			<div class="divLogin">
+					
+				<h3 style="color: #FEF9FF; font-family: monospace; font-size: 30px;">Bem-Vindo :)</h3><br>
+				
 				<div class="input-group mb-3">
 				  <div class="input-group-prepend">
-				    <span class="input-group-text" id="basic-addon1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewBox="0 0 16 16">
-					  <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"/>
-					  <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"/>
-					</svg></span>
+				    <p class="btn btn-info botaoInput" style="height: 76%;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+						  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+						</svg>
+					</p>
 				  </div>
-				  <input type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1" style="color: #FF5E5B; font-family: monospace; font-size: 18px;">
+				  <input type="text" class="form-control" placeholder="{seu Email}" aria-label="Email" aria-describedby="basic-addon1" style="color: #FAA916; font-family: monospace; font-size: 18px;">
 				</div>
+				
+				<div class="input-group mb-3">
+			  <div class="input-group-prepend">
+			    <p class="btn btn-info botaoInput" style="height: 76%;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+					  <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+					</svg>
+				</p>
+			  </div>
+			  <input id="pass" type="password" class="form-control" placeholder="{Sua Senha}" aria-label="Password" aria-describedby="basic-addon1" style="color: #FAA916; font-family: monospace; font-size: 18px;">
+				  <div class="input-group-append" style="color:" id="showPassword">
+				  	<p class="btn btn-info botaoInput" style="height: 76%;">
+				  		<svg id="icone" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-slash-fill" viewBox="0 0 16 16">
+						  <path d="m10.79 12.912-1.614-1.615a3.5 3.5 0 0 1-4.474-4.474l-2.06-2.06C.938 6.278 0 8 0 8s3 5.5 8 5.5a7.029 7.029 0 0 0 2.79-.588zM5.21 3.088A7.028 7.028 0 0 1 8 2.5c5 0 8 5.5 8 5.5s-.939 1.721-2.641 3.238l-2.062-2.062a3.5 3.5 0 0 0-4.474-4.474L5.21 3.089z"/>
+						  <path d="M5.525 7.646a2.5 2.5 0 0 0 2.829 2.829l-2.83-2.829zm4.95.708-2.829-2.83a2.5 2.5 0 0 1 2.829 2.829zm3.171 6-12-12 .708-.708 12 12-.708.708z"/>
+						</svg>
+					</p>
+				  </div>
+				
+			</div>
 				
 				<a href="" style="color: #FEF9FF; font-family: monospace; font-size: 10px;">Não possui cadastro? Cadastre-se aqui!</a><br>
 		
 				<br><input type="submit" class="btn btn-info botaoJogar" value="Jogar">				      
 				
 				<br><br>
-			</form>
-		</div>
+			</div>
+		</form>
 	</div>
+	
+	
 	<br>
 
 </body>
+
+<script>
+	
+	document.getElementById('showPassword').addEventListener('click', function(){
+		if(document.getElementById('pass').type == 'text'){
+			document.getElementById('pass').type = 'password';
+		}else{
+			document.getElementById('pass').type = 'text';
+		}
+		
+	})
+</script>
+
 </html>
