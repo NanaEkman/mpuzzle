@@ -17,23 +17,20 @@
 			<span>capivaras_giordanicas</span>
 		</a>
 	</div>
+	
 	<h3>Menu</h3>
+	
 	<p>Dificuldade:</p>
-	<button>Fácil</button>
+	
+	<button class="botoesMenu">Fácil</button>
+	
 	<br>
-	<button>Médio</button>
+	
+	<button class="botoesMenu">Médio</button>
+	
 	<br>
-	<button>Difícil</button>
-	<p>Tema das Cartas:</p>
-	<button>Animais</button>
-	<br>
-	<button>Anime</button>
-	<br>
-	<button>Desenhos</button>
-	<br>
-	<button>Esportes</button>
-	<br>
-	<button>Filmes e Séries</button>
+	
+	<button class="botoesMenu">Difícil</button>
 	
 	<%@ include file="Contatos.jsp" %>
 </body>

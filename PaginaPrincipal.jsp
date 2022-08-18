@@ -9,6 +9,7 @@
 	@import url('http://fonts.cdnfonts.com/css/bauhaus-modern');
 </style>
 <link href="cssCAMI.css" rel="stylesheet" type="text/css">
+<link href="cssNANA.css" rel="stylesheet" type="text/css">
 <meta charset="UTF-8">
 <title>mpuzzle</title>
 </head>
