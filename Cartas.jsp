@@ -128,10 +128,13 @@ if(numLado == 4){
 		} else if (valueBotao == "parar"){
 			
 			alert("Atenção voce está parando o jogo antes de terminar, voce deseja mesmo desistir? ===================IMPLEMENTAR UM MODAL PRA ISSO==================")
+			
 			parar() //para o cronometro
+			deletarCartas()
 			//e cancela o jogo restaurando as informações
 			document.getElementById("jogarParar").value = "jogar"
 			document.getElementById("jogarParar").textContent = "Jogar"
+			
 			
 		}
 		
@@ -193,6 +196,10 @@ if(numLado == 4){
 		miliseg.innerHTML = '00'
 		seg.innerHTML = '00'
 		min.innerHTML = '00'
+		
+		//pegando o numero da rodada
+		const rodada = document.querySelector('.proxRodada')
+		document.getElementById("rodada").textContent = 0
 	}
 	
 
@@ -267,15 +274,13 @@ if(numLado == 4){
 <!-- ########################### comparação das cartas ########################### -->
 
 
-
-
-
 	
 	var cartasSelecionadas = 0;
 	var id1;
 	var id2;
 	var carta1;
 	var carta2;
+	var qtdAcertos = 0;
 	
 	function clicouCarta(){
 		
@@ -311,12 +316,19 @@ if(numLado == 4){
 			alert("Você acertou!")
 			carta1.style.borderRadius = "100px";
 			carta2.style.borderRadius = "100px";
+			
+			qtdAcertos += 1;
+			
 		} else {
 			alert("Você errou!")
 			carta1.style.borderRadius = "0px";
 			carta2.style.borderRadius = "0px";
 			carta1.setAttribute("onclick","clicouCarta()")
 			carta2.setAttribute("onclick","clicouCarta()")
+		}
+		
+		if (qtdAcertos == <%=numImagens%>) {
+			alert("Parabéns você ganhou!!")
 		}
 		
 		cartasSelecionadas = 0
@@ -347,6 +359,19 @@ if(numLado == 4){
 		rodNum ++
 		document.getElementById("rodada").textContent = rodNum
 	}
+	
+	
+	
+	<!-- ########################### deletar cartas ########################### -->
+	
+	function deletarCartas(){
+		 
+      	var base = document.querySelectorAll('section div');
+      	for (let div of base) {
+      		div.remove();
+      	  }	
+	}
+	
 
 </script>
 

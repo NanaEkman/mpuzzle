@@ -15,6 +15,7 @@
 	font-family: 'Bauhaus Modern', sans-serif;
 	font-size: 100px; 
 	text-align: center;
+	background-color: white;
 }
 
 .corpoInicial{
@@ -38,3 +39,5 @@
 	width: 20%;
 	border-radius:8px;
 }
+
+

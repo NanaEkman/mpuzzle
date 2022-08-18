@@ -8,15 +8,14 @@
 <style>
 	@import url('http://fonts.cdnfonts.com/css/bauhaus-modern');
 </style>
-
 <link href="cssCAMI.css" rel="stylesheet" type="text/css">
 <meta charset="UTF-8">
 <title>mpuzzle</title>
 </head>
-<body style="background-color: #8661c1;">
+<body style="background-color: white;">
 	
 	<div class="grid">
-	   <div class="logoPrincipal" style="background-color: #8661c1;">
+	   <div class="logoPrincipal">
 	   <%@ include file="NomeJogo.jsp" %>
 	   </div>
 	   
