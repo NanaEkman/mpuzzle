@@ -120,7 +120,7 @@ if(numLado == 4){
 		if (valueBotao == "jogar"){
 			
 			comecarCriarCartas() //gera cartas
-			
+			limpar()//limpa os numeros da rodada anterior
 			iniciar() //inicia cronometro
 			document.getElementById("jogarParar").value = "parar"
 			document.getElementById("jogarParar").textContent = "Parar"
@@ -129,7 +129,8 @@ if(numLado == 4){
 			
 			alert("Atenção voce está parando o jogo antes de terminar, voce deseja mesmo desistir? ===================IMPLEMENTAR UM MODAL PRA ISSO==================")
 			
-			parar() //para o cronometro
+			pausar() //para o cronometro
+			
 			deletarCartas()
 			//e cancela o jogo restaurando as informações
 			document.getElementById("jogarParar").value = "jogar"
@@ -188,7 +189,7 @@ if(numLado == 4){
 	}
 	
 	//função para parar o cronometro e o jogo
-	function parar() {
+	function limpar() {
 		clearInterval(INTERVALO)
 		miliNum = 0
 		segNum = 0
@@ -327,12 +328,23 @@ if(numLado == 4){
 			carta2.setAttribute("onclick","clicouCarta()")
 		}
 		
-		if (qtdAcertos == <%=numImagens%>) {
-			alert("Parabéns você ganhou!!")
-		}
-		
 		cartasSelecionadas = 0
 		proxRodada()
+		
+		if (qtdAcertos == <%=numImagens%>) {
+			alert("Parabéns você ganhou!!")
+			
+			pausar()//para o cronometro
+			deletarCartas()
+			//e cancela o jogo restaurando as informações
+			document.getElementById("jogarParar").value = "jogar"
+			document.getElementById("jogarParar").textContent = "Jogar"
+			
+			qtdAcertos = 0;
+			
+			salvarDados()
+		}
+		
 	}
 	
 	function cartaClicada(){
@@ -372,7 +384,12 @@ if(numLado == 4){
       	  }	
 	}
 	
-
+	
+	function salvarDados(){
+		//colocar dados no banco
+	}
+	
+	
 </script>
 
 
