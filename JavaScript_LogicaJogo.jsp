@@ -59,7 +59,9 @@
 	//função para iniciar e parar o jogo e o cronometro!!!!!!!!!!!!!!!!!!!!!!!
 	function jogarParar(){
 		
+		
 		var valueBotao = document.getElementById("jogarParar").value
+		apareceTexto(valueBotao)
 		
 		if (valueBotao == "jogar"){
 			
@@ -225,6 +227,25 @@ function proxRodada() {
 	var rodNum = parseInt(document.getElementById("rodada").textContent)
 	rodNum ++
 	document.getElementById("rodada").textContent = rodNum
+}
+
+//função para aparecer o texto de rodadas e cronômetro só depois que começar o jogo
+function apareceTexto(valueBotao){
+
+	if (valueBotao == "parar"){
+		
+		document.getElementById("tempo").textContent = ""
+		document.getElementById("rodadas").textContent = ""
+		document.getElementById("rodada").textContent = ""
+		
+	}  else if (valueBotao == "jogar"){
+		
+		document.getElementById("tempo").textContent = "Time: "
+		document.getElementById("rodadas").textContent = "Rounds: "
+		document.getElementById("rodada").textContent = "0"
+		
+	} 
+
 }
 
 </script>

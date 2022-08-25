@@ -13,28 +13,34 @@
 <meta charset="UTF-8">
 <title>mpuzzle</title>
 </head>
-<body style="background-color: white;">
+<body style="background-color: #FFD670;">
 	
 	<div class="grid">
 	   <div class="logoPrincipal">
 	   <%@ include file="NomeJogo.jsp" %>
 	   </div>
 	   
-	   <div class="divs jogar" style="background-color: #ffffff;">
+	   <div class="divs jogar" style="color: white;">
 	   <%@ include file="Jogar.jsp" %>
 	   </div>
 	   
-	   <div class="divs menu" style="background-color: #ff5e5b;">
+	   <div class="divs menu" style="background-color: #ff5e5b; color: white;">
 	   <%@ include file="Menu.jsp" %>
 	   </div>
 	   
-	   <div class="divs corpo" style="background-color: #fef9ff;">
+	   <div class="divs corpo" style="background-color: #fef9ff; color: white;">
 	   <%@ include file="Cartas.jsp" %>
 	   </div>
 	   
-	   <div class="divs ranking" style="background-color: #68b7ba;">
+	   <div class="divs ranking" style="background-color: #68b7ba; color: white;">
 	   <%@ include file="Rankings.jsp" %>
 	   </div>
+
+		<div class="divs usuario" style="color: white;">
+           usuario
+       </div>
+	   
+	   
 	</div>
 	
 </body>

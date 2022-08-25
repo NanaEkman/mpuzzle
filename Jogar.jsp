@@ -1,15 +1,15 @@
 	<div class="time">
-		<span>Time:</span>
-  		<span class="minutos">00</span>:
-  		<span class="segundos">00</span>:
-  		<span class="milissegundos">00</span>
+		<span id="tempo"></span>
+  		<span class="minutos"></span>
+  		<span class="segundos"></span>
+  		<span class="milissegundos"></span>
 		
 	
 	</div>
 	
 	<div class="rounds">
-		<span>Rounds:</span>
-		<span class="rodada" id="rodada">0</span>
+		<span id="rodadas"></span>
+		<span class="rodada" id="rodada"></span>
 	</div>
 	
 	<div class="botoes">
@@ -19,4 +19,5 @@
 		<button onclick="jogarParar()" class="jogarParar" id="jogarParar" value="jogar">Jogar</button>
 	
 	</div>
+	
 	

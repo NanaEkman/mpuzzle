@@ -11,11 +11,10 @@
 }
 
 .fonte{
-	color: #FAA916;
+	color: #FF70A6;
 	font-family: 'Bauhaus Modern', sans-serif;
 	font-size: 100px; 
 	text-align: center;
-	background-color: white;
 }
 
 .corpoInicial{
@@ -43,6 +42,19 @@
 .botoesMenu{
 	border-radius: 5px;
 	
+}
+
+.jogarParar{
+	padding-left: 5px;
+	background-color: #FF9770;
+	border-radius: 1000px;
+	width: 150px;
+}
+
+.pausarRetomar{
+	background-color: #FF9770;
+	border-radius: 1000px;
+	width: 150px;
 }
 
 
