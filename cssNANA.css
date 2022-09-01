@@ -57,9 +57,19 @@
 }
 
 .linkParaPagUsu {
-	background-color: red;
 	text-decoration: none;
 	color: white;
+	font-size: 20px;
+	margin-top: 5%;
+	margin-top: 1em;
+}
+
+.divLinkParaPagUsu{
+	background-color: #ff66a1;
+	height: 80px;
+	background-color: #FF9770;
+	text-align: center;
+
 }
 
 .minutos{}

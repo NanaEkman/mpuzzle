@@ -15,7 +15,7 @@
 
 <title>Página de Usuário mpuzzle</title>
 </head>
-<body style="background-color: #8661C1">
+<body style="background-image: url('fundoMpuzzle.jpg')">
 
 	<div class="divNomeJogoLogin"><%@ include file="NomeJogo.jsp" %></div>
 	
@@ -65,8 +65,8 @@
 				
 			</div>
 	
-			<br><input id="btnOperacao" type="submit" class="btn btn-info" name="btnOperacao" value="Alterar" style="">
-			<input id="btnOperacao" type="submit" class="btn btn-info" name="btnOperacao" value="Cancelar" style="">	      
+			<br><input id="Alterar" type="button" class="btn btn-info" name="btnOperacao" value="Alterar" style="" onclick="Altera()">
+			<input id="Cancelar" type="button" class="btn btn-info" name="btnOperacao" value="Cancelar" style="" onclick="Cancela()">	      
 			
 			<br><br>
 		</form>	
@@ -87,13 +87,16 @@
 		
 	})
 	
-	document.getElementById('btnOperacao').addEventListener('click', function(){
-		if(getElementByName('btnOperacao').value == 'Alterar'){
-			alert('Alterado!')
-		}else if(getElementById('btnOperacao').value == 'Cancelar'){
-			alert('Cancelado!')
-		}
-	})
+	
+	function Altera(){
+		alert('Dados atualizados com sucesso!')
+		window.location.href = "PaginaPrincipal.jsp";
+	}
+	
+	function Cancela(){
+		window.location.href = "PaginaPrincipal.jsp";
+	}
+	
 	
 </script>
 

@@ -56,7 +56,7 @@
 				
 			</div>
 				
-				<a href="" style="color: #FEF9FF; font-family: monospace; font-size: 10px;">Não possui cadastro? Cadastre-se aqui!</a><br>
+				<a href="PaginaCadastro.jsp" style="color: #FEF9FF; font-family: monospace; font-size: 10px;">Não possui cadastro? Cadastre-se aqui!</a><br>
 		
 				<br><input type="submit" class="btn btn-info botaoJogar" value="Jogar">				      
 				
