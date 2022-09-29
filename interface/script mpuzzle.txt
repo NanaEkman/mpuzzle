@@ -1,0 +1,21 @@
+create database mpuzzle;
+
+use mpuzzle;
+
+create table usuario (
+ID integer auto_increment,
+Nickname varchar(30),
+Senha Varchar(30),
+Email Varchar(30),
+primary key(ID));
+
+create table jogada(
+dificuldade integer,
+tema varchar(30),
+idUsuario integer,
+tempo Time,
+rodada integer,
+primary key(dificuldade, tema, idUsuario, tempo, rodada),
+foreign key(idUsuario) references usuario(ID));
+
+
