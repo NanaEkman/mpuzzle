@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+.divNomeJogoLogin{
+	text-align: center;
+	margin-top: 2%;
+}
+
+.ladoBotaoInput{
+    height: 76%; 
+    background-color: #00CDF4; 
+    color: white;
+}
+
+
+.fonte{
+	color: #FFD670;
+	font-family: 'Bauhaus Modern', sans-serif;
+	font-size: 6.5vw; 
+	text-align: center;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.corpoInicial{
+	background-color: #7A83EA;
+    overflow-x: hidden;
+}
+
+
+.divLogin{
+    background-color: #5A69E5;
+	width: 50%;
+	height: 40%; 
+	text-align: center;
+    justify-content: center;
+	border-style: none;
+	border-radius: 10px;
+	margin-left: 25%;
+	margin-right: 25%;
+    margin-top: 2%;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.botaoJogar{
+	width: 20%;
+	border-radius:8px;
+    background-color: #00CDF4;
+}
+
+::placeholder {
+    color: #7A83EA;
+}
+
+button:hover,
+button:focus {
+  transform: translateX(1px) scale(1.05);
+  
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.botoesMenu{
+	border-radius: 5px;
+	
+}
+
+.jogarParar{
+	padding-left: 5px;
+	background-color: #3bc472;
+	border-radius: 1000px;
+	width: 150px;
+	color: white;
+	background-color: black 0.2;
+}
+
+.pausarRetomar{
+	background-color: #FF9770;
+	border-radius: 1000px;
+	width: 150px;
+	color: black;
+}
+
+.tabela{
+    color:white;
+    font-size: 1vw;
+    background-color: #3d34c25d ;
+    border-radius: 4px;
+    width: 100%;
+    /*border: 1px solid #7A83EA;
+    border-top: 1px solid #7A83EA;
+    border-bottom: 1px solid #7A83EA;*/
+}
+
+
+
+
+/*https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout*/
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(20, 80px);
+    grid-template-rows: repeat(10, 80px);
+    grid-auto-rows: minmax(200px, auto);
+    grid-auto-columns: minmax(200px, auto);
+    grid-column-gap: 17px; /*espa�o maior*/
+    grid-row-gap: 17px;
+  }
+  
+  .logoPrincipal {
+      grid-column-start: 7;
+      grid-column-end: 15;
+      grid-row-start: 1;
+      grid-row-end: 2; 
+      font-size: 100px;
+      text-align: center;
+      margin-top: 50px;
+  }
+  
+  .jogar {
+      grid-column-start: 3;
+      grid-column-end: 7;
+      grid-row-start: 2;
+      grid-row-end: 3;
+  }
+  .menu {
+      grid-column-start: 3;
+      grid-column-end: 7;
+      grid-row-start: 3;
+      grid-row-end: 11;
+      background-color:  #5A69E5; 
+      color: white;
+  }
+  .corpo {
+      grid-column-start: 7;
+      grid-column-end: 15;
+      grid-row-start: 3;
+      grid-row-end: 11;
+      background-color:  #5A69E5; 
+      color: white;
+  }
+  .ranking {
+      grid-column-start: 15;
+      grid-column-end: 19;
+      grid-row-start: 3;
+      grid-row-end: 11;
+      background-color:  #5A69E5; 
+      color: white;
+  }
+  .usuario {
+      grid-column-start: 15;
+      grid-column-end: 19;
+      grid-row-start: 2;
+      grid-row-end: 3;
+  }
+  
+  .divs {
+      border-radius: 8px;
+      border-collapse: collapse;
+  }
+  
+  .linkParaPagUsu {
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      margin-top: 5%;
+      margin-top: 1em;
+  }
+  
+  .divLinkParaPagUsu{
+      background-color: #ff66a1;
+      height: 80px;
+      background-color: #FF9770;
+      text-align: center;
+  
+  }
+  
+
+  
+  /* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #3E34C2 transparent;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #3E34C2 ;
+    border-radius: 20px;
+  }
