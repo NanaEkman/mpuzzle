@@ -11,11 +11,11 @@ primary key(ID));
 
 create table jogada(
 ID integer auto_increment,
-dificuldade integer,
+dificuldade Varchar(30),
 idUsuario integer,
-tempo Time,
+tempo Varchar(30),
 rodada integer,
-primary key(ID, dificuldade, tema, idUsuario, tempo, rodada),
+primary key(ID, dificuldade, idUsuario, tempo, rodada),
 foreign key(idUsuario) references usuario(ID));
 
 
